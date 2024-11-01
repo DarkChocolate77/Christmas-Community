@@ -187,6 +187,13 @@ Hi, I'm Wingy. I made this app. My website is [samwing.dev](https://samwing.dev)
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/DarkChocolate77">
+            <img src="https://avatars.githubusercontent.com/u/98434573?v=4" width="100;" alt="DarkChocolate77"/>
+            <br />
+            <sub><b>DarkChocolate77</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/cj13579">
             <img src="https://avatars.githubusercontent.com/u/1965454?v=4" width="100;" alt="cj13579"/>
             <br />
@@ -213,20 +220,13 @@ Hi, I'm Wingy. I made this app. My website is [samwing.dev](https://samwing.dev)
             <br />
             <sub><b>Laeborg</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/LarsStegman">
             <img src="https://avatars.githubusercontent.com/u/9332816?v=4" width="100;" alt="LarsStegman"/>
             <br />
             <sub><b>LarsStegman</b></sub>
-        </a>
-    </td></tr>
-<tr>
-    <td align="center">
-        <a href="https://github.com/DarkChocolate77">
-            <img src="https://avatars.githubusercontent.com/u/98434573?v=4" width="100;" alt="DarkChocolate77"/>
-            <br />
-            <sub><b>DarkChocolate77</b></sub>
         </a>
     </td>
     <td align="center">
