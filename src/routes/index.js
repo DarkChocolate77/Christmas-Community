@@ -16,6 +16,9 @@ import AdminSettings from './adminSettings/index.js'
 import ManifestJson from './manifest.json/index.js'
 import Google from './google-auth/index.js'
 
+// Import the Calendar module (make sure the path is correct)
+import Calendar from './calendar/index.js' // Adjust this path as necessary
+
 export default ({ db, config }) => {
   async function ensurePfp (username) {
     if (!config.pfp) return
@@ -73,6 +76,9 @@ export default ({ db, config }) => {
   router.use('/profile', Profile({ db, config, ensurePfp }))
 
   router.use('/admin-settings', AdminSettings({ db, ensurePfp }))
+
+  // Add the route for the calendar page
+  router.use('/calendar', Calendar({ db })) // Make sure the Calendar module is set up correctly
 
   router.use('/manifest.json', ManifestJson({ config }))
 
