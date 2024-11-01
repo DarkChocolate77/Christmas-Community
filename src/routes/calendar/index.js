@@ -1,10 +1,13 @@
+import verifyAuth from '../../middlewares/verifyAuth.js';
 import express from 'express';
 
-const router = express.Router();
+export default function () {
+  const router = express.Router();
 
-// Serve the calendar page
-router.get('/', (req, res) => {
-  res.render('calendar'); // Assuming you have a calendar.pug file
-});
+  // Use verifyAuth to protect the calendar route
+  router.get('/', verifyAuth(), (req, res) => {
+    res.render('calendar', { title: 'Calendar' }); // Adjust title as needed
+  });
 
-export default () => router;
+  return router;
+}
