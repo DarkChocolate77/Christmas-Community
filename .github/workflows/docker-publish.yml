@@ -5,7 +5,7 @@ name: Build and Publish Docker Image
 on:
   push:
     branches:
-      - main  # Change to your default branch if needed
+      - master  # Change to your default branch if needed
 
 jobs:
   build:
