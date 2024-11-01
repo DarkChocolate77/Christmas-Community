@@ -26,4 +26,4 @@ jobs:
 
     - name: Build and Push Docker image for ARM
       run: |
-        docker buildx build --platform linux/arm/v7,linux/arm64 -t username/repo:tag --push .
+        docker buildx build --platform linux/arm/v7,linux/arm64 -t darkchocolate77/christmas-community:latest --push .
