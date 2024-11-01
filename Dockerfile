@@ -12,7 +12,7 @@ ENV SECRET_DIRNAME=/data
 WORKDIR /usr/src/app
 
 COPY . .
-RUN npm install --silent && \
+RUN npm install --silent --timeout=${NPM_TIMEOUT} --verbose && \
     npm run build && \
     rm -rf node_modules && \
     npm install --production --silent && \
