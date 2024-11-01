@@ -9,6 +9,7 @@ const config = {
   sessionMaxAge: Number(process.env.SESSION_MAX_AGE) || 1000 * 60 * 60 * 24 * 7,
   siteTitle: process.env.SITE_TITLE || 'Christmas Community',
   shortTitle: process.env.SHORT_TITLE || 'Christmas',
+  calURL: process.env.CALENDAR_URL || '',
   wishlist: (await import('./wishlist/index.js')).default,
   trustProxy: process.env.TRUST_PROXY === 'true' ? true : process.env.TRUST_PROXY || 'loopback',
   bulmaswatch: (process.env.BULMASWATCH || 'default').toLowerCase(),
