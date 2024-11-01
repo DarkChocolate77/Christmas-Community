@@ -36,6 +36,6 @@ nav.navbar.is-fixed-top(role='navigation', aria-label='main navigation',style='b
               .navbar-item
                 form#logoutForm(action=`${_CC.config.base}logout`, method='POST')
                   button.button.is-warning(type='submit')= lang('NAVBAR_LOGOUT')
-      // New standalone link in navbar-start
-      +navBarLink(`${_CC.config.base}calendar`, 'Calendar')
+          // New standalone link in navbar-start
+          +navBarLink(`${_CC.config.base}calendar`, 'Calendar')
   script(src=`${_CC.config.base}js/nav.js`)
